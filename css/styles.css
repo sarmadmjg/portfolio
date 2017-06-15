@@ -7,13 +7,6 @@
     /*outline: 1px solid blue;*/
 }
 
-body {
-    max-width: 900px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1 {
     font-weight: 100;
     font-size: 3em;
@@ -49,7 +42,7 @@ img {
 }
 
 /*<======== Grid System Definitions =========>*/
-.row {
+/*.row {
     width: 100%;
 }
 .col-8 {
@@ -63,12 +56,12 @@ img {
 }
 .col-3 {
     width: 25%;
-}
+}*/
 
 /*<======== Header styling ========>*/
 header {
-    display: flex;
-    padding: 5px;
+    /*display: flex;
+    padding: 5px;*/
 }
 .logo-container {
     text-align: left;
@@ -85,9 +78,9 @@ header {
 }
 
 /*<======== Articles Styling ========>*/
-.articles-container {
+/*.articles-container {
     display: flex;
-}
+}*/
 #feat-work {
     color: #7d97ad;
 }
