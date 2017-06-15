@@ -1,13 +1,49 @@
+/*<======== General rules for the entire document ========>*/
 * {
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
     /*outline: 1px solid blue;*/
 }
 
 body {
-    max-width: 1000px;
+    max-width: 900px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0.25em 0;
+}
+h2 {
+    font-weight: 200;
+    font-size: 18px;
+    margin: 0.25em 0;
+}
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0.25em 0;
+}
+h4 {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0.25em 0;
+}
+a {
+    text-decoration: none;
+}
+
+hr {
+    height: 1px;
+    background-color: #7d97ad;
+    border: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 /*<======== Grid System Definitions =========>*/
@@ -30,26 +66,38 @@ body {
 /*<======== Header styling ========>*/
 header {
     display: flex;
-    height: 140px;
+    height: 120px;
     padding: 5px;
 }
 .logo-container {
     text-align: left;
 }
 .logo {
-    margin-top: 20px
+    margin-top: 10px
 }
 .title-container {
     text-align: right;
+}
+#name {
+    color: #2d3c49;
+}
+#title {
+    color: #2d3c49;
 }
 
 /*<======== Articles Styling ========>*/
 .articles-container {
     display: flex;
 }
+#feat-work {
+    color: #7d97ad;
+}
 article.project {
     text-align: center;
 }
 .project-img {
     width: 100%;
+}
+.project-title {
+    color: #2d3c49;
 }
