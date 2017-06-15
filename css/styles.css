@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    outline: 1px solid blue;
+    /*outline: 1px solid blue;*/
 }
 
 body {
@@ -29,22 +29,26 @@ body {
 
 /*<======== Header styling ========>*/
 header {
-    padding: 5px 0;
-    text-align: right;
+    display: flex;
+    height: 140px;
+    padding: 5px;
+}
+.logo-container {
+    text-align: left;
 }
 .logo {
-    float: left;
-    height: 100%;
+    margin-top: 20px
+}
+.title-container {
+    text-align: right;
 }
 
 /*<======== Articles Styling ========>*/
 .articles-container {
     display: flex;
-    padding: 0 -10px;
 }
 article.project {
     text-align: center;
-    margin: 0 10px;
 }
 .project-img {
     width: 100%;
