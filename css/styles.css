@@ -1,7 +1,7 @@
 /*<-------- General rules -------->*/
 body {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: 100;
     background-color: #6c97bc;
     color: #fff;
@@ -38,7 +38,7 @@ h4 {font-size: 1.2em;}
 .title-container {text-align: center;}
 .header-separator {display: none}
 
-/*<---Realign header content on larger devices --->*/
+/*<---Reorder header content on larger devices --->*/
 @media screen and (min-width: 768px) {
     .logo-container {text-align: left;}
     .title-container {text-align: right;}
@@ -51,11 +51,9 @@ h4 {font-size: 1.2em;}
 }
 #hero {width: 100%;}
 
-/*<--- Align hero with rest of page of larger devices --->*/
+/*<--- Align hero with rest of page on larger devices --->*/
 @media screen and (min-width: 768px){
-    .hero-container {
-        padding: 0 15px;
-    }
+    .hero-container {padding: 0 15px;}
 }
 
 /*<-------- Projects -------->*/
