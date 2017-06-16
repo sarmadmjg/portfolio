@@ -1,12 +1,17 @@
 /*<======== General rules for the entire document ========>*/
 * {
+    /*outline: 1px solid blue;*/
+}
+
+body {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    /*outline: 1px solid blue;*/
 }
-
+.container-fluid {
+    max-width: 1000px;
+}
 img {
     max-width: 100%;
 }
