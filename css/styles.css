@@ -1,7 +1,5 @@
-/*<======== General rules for the entire document ========>*/
-* {
-    /*outline: 1px solid blue;*/
-}
+/*<-------- General rules for -------->*/
+* {/*outline: 1px solid blue;*/}
 
 body {
     box-sizing: border-box;
@@ -9,12 +7,8 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-.container-fluid {
-    max-width: 1000px;
-}
-img {
-    max-width: 100%;
-}
+.container-fluid {max-width: 1000px;}
+img {max-width: 100%;}
 
 h1 {
     font-weight: 100;
@@ -41,7 +35,7 @@ hr {
     border: none;
 }
 
-/*<---Adjust headers for larger devices--->*/
+/*<---Adjust headings for larger devices--->*/
 @media screen and (min-width: 768px) {
     h1 {font-size: 3em;}
     h2 {font-size: 1.5em;}
@@ -49,54 +43,18 @@ hr {
     h4 {font-size: 1.5em;}
 }
 
-/*<======== Grid System Definitions =========>*/
-/*.row {
-    width: 100%;
-}
-.col-8 {
-    width: 66.66%;
-}
-.col-6 {
-    width: 50%;
-}
-.col-4 {
-    width: 33.33%;
-}
-.col-3 {
-    width: 25%;
-}*/
-
-/*<======== Header styling ========>*/
-header {
-    /*display: flex;
-    padding: 5px;*/
-}
-.logo-container {
-    text-align: center;
-    /*margin: auto 0;*/
-}
-.logo {
-    margin-top: 26px;
-}
-.title-container {
-    text-align: center;
-}
-#name {
-    color: #2d3c49;
-}
-#title {
-    color: #2d3c49;
-}
+/*<-------- Header styling -------->*/
+.logo-container {text-align: center;}
+.logo {margin-top: 26px;}
+.title-container {text-align: center;}
+#name {color: #2d3c49;}
+#title {color: #2d3c49;}
 @media screen and (min-width: 768px) {
-    .logo-container {
-        text-align: left;
-    }
-    .title-container {
-        text-align: right;
-    }
+    .logo-container {text-align: left;}
+    .title-container {text-align: right;}
 }
 
-/*<======== Banner Styling ========>*/
+/*<-------- Banner Styling -------->*/
 .banner {
     height: 400px;
     max-height: 50vh;
@@ -105,26 +63,16 @@ header {
     background-image: url(http://via.placeholder.com/900x400);
 }
 
-/*<======== Articles Styling ========>*/
+/*<-------- Projects Styling -------->*/
 #feat-work {
     color: #7d97ad;
     margin-left: 15px;
 }
-.projects-section {
-    padding: 0;
-}
-.projects-container {
-    padding: 0;
-}
-.project {
-    text-align: center;
-}
-.project-img {
-    width: 100%;
-}
-.project-title {
-    color: #2d3c49;
-}
+.projects-section {padding: 0;}
+.projects-container {padding: 0;}
+.project {text-align: center;}
+.project-img {width: 100%;}
+.project-title {color: #2d3c49;}
 .project-link {
     min-width: 48px;
     min-height: 48px;
