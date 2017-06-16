@@ -7,29 +7,28 @@
     /*outline: 1px solid blue;*/
 }
 
+img {
+    max-width: 100%;
+}
+
 h1 {
     font-weight: 100;
     font-size: 2.5em;
-    margin: 0.25em 0;
 }
 h2 {
     font-weight: 200;
     font-size: 1.2em;
-    margin: 0.25em 0;
 }
 h3 {
     font-weight: 400;
     font-size: 1.5em;
-    margin: 0.25em 0;
 }
 h4 {
     font-weight: 400;
     font-size: 1.2em;
-    margin: 0.25em 0;
 }
-a {
-    text-decoration: none;
-}
+h1, h2, h3, h4 {margin: 0.25em 0;}
+a {text-decoration: none;}
 
 hr {
     height: 1px;
@@ -37,23 +36,12 @@ hr {
     border: none;
 }
 
-img {
-    max-width: 100%;
-}
-
+/*<---Adjust headers for larger devices--->*/
 @media screen and (min-width: 768px) {
-    h1 {
-        font-size: 3em;
-    }
-    h2 {
-        font-size: 1.5em;
-    }
-    h3 {
-        font-size: 2em;
-    }
-    h4 {
-        font-size: 1.5em;
-    }
+    h1 {font-size: 3em;}
+    h2 {font-size: 1.5em;}
+    h3 {font-size: 2em;}
+    h4 {font-size: 1.5em;}
 }
 
 /*<======== Grid System Definitions =========>*/
@@ -103,10 +91,16 @@ header {
     }
 }
 
+/*<======== Banner Styling ========>*/
+.banner {
+    height: 400px;
+    max-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(http://via.placeholder.com/900x400);
+}
+
 /*<======== Articles Styling ========>*/
-/*.articles-container {
-    display: flex;
-}*/
 #feat-work {
     color: #7d97ad;
     margin-left: 15px;
@@ -125,4 +119,8 @@ header {
 }
 .project-title {
     color: #2d3c49;
+}
+.project-link {
+    min-width: 48px;
+    min-height: 48px;
 }
