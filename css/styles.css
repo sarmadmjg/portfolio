@@ -55,13 +55,7 @@ hr {
 }
 
 /*<-------- Banner Styling -------->*/
-.banner {
-    height: 400px;
-    max-height: 50vh;
-    background-size: cover;
-    background-position: center;
-    background-image: url(http://via.placeholder.com/900x400);
-}
+#banner {width: 100%;}
 
 /*<-------- Projects Styling -------->*/
 #feat-work {
