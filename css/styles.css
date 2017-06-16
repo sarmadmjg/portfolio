@@ -21,12 +21,6 @@ h2 {font-size: 2em;}
 h3 {font-size: 1.5em}
 h4 {font-size: 1.2em;}
 
-/*hr {
-    height: 1px;
-    background-color: #7d97ad;
-    border: none;
-}*/
-
 /*<---Adjust headings for larger devices--->*/
 @media screen and (min-width: 768px) {
     h1 {font-size: 3em;}
@@ -42,35 +36,35 @@ h4 {font-size: 1.2em;}
     height: 50px;
 }
 .title-container {text-align: center;}
-/*#name {color: #2d3c49;}*/
-/*#title {color: #2d3c49;}*/
 .header-separator {display: none}
 
-/*<---Center header contents on smaller screens --->*/
+/*<---Realign header content on larger devices --->*/
 @media screen and (min-width: 768px) {
     .logo-container {text-align: left;}
     .title-container {text-align: right;}
     .header-separator {display: block;}
 }
 
-/*<-------- Banner -------->*/
-.banner-container {
+/*<-------- Hero -------->*/
+.hero-container {
     padding: 0;
 }
-#banner {width: 100%;}
+#hero {width: 100%;}
+
+/*<--- Align hero with rest of page of larger devices --->*/
 @media screen and (min-width: 768px){
-    .banner-container {
+    .hero-container {
         padding: 0 15px;
     }
 }
 
 /*<-------- Projects -------->*/
-#feat-work {
-    margin-left: 15px;
-}
 .projects-section {
     padding: 0;
     margin-top: 1em;
+}
+#feat-work {
+    margin-left: 15px;
 }
 .projects-container {padding: 0;}
 .project {
