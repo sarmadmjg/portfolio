@@ -15,15 +15,15 @@ h1 {
     font-size: 2.5em;
 }
 h2 {
-    font-weight: 200;
-    font-size: 1.2em;
+    font-weight: 400;
+    font-size: 1.8em;
 }
 h3 {
     font-weight: 400;
     font-size: 1.5em;
 }
 h4 {
-    font-weight: 400;
+    font-weight: 200;
     font-size: 1.2em;
 }
 h1, h2, h3, h4 {margin: 0.25em 0;}
@@ -38,7 +38,7 @@ hr {
 /*<---Adjust headings for larger devices--->*/
 @media screen and (min-width: 768px) {
     h1 {font-size: 3em;}
-    h2 {font-size: 1.5em;}
+    h2 {font-size: 2.5em;}
     h3 {font-size: 2em;}
     h4 {font-size: 1.5em;}
 }
@@ -71,9 +71,15 @@ hr {
     color: #7d97ad;
     margin-left: 15px;
 }
-.projects-section {padding: 0;}
+.projects-section {
+    padding: 0;
+    margin-top: 1em;
+}
 .projects-container {padding: 0;}
-.project {text-align: center;}
+.project {
+    text-align: center;
+    margin-bottom: 1em;
+}
 .project-img {width: 100%;}
 .project-title {color: #2d3c49;}
 .project-link {

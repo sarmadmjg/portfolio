@@ -5,6 +5,6 @@
 # H=$3
 
 
-magick banner.png -resize 1440 banner-1440.jpg
-magick banner.png -resize 1080 banner-1080.jpg
-magick banner.png -resize 720 banner-720.jpg
+magick project2.png -resize 1000 project2-1000.jpg
+magick project2.png -resize 700 project2-700.jpg
+magick project2.png -resize 500 project2-500.jpg
