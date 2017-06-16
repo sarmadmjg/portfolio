@@ -1,39 +1,31 @@
-/*<-------- General rules for -------->*/
-* {/*outline: 1px solid blue;*/}
-
+/*<-------- General rules -------->*/
 body {
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: #2d3c49;
+    color: #fff;
 }
 .container-fluid {max-width: 1000px;}
+
 img {max-width: 100%;}
 
-h1 {
-    font-weight: 100;
-    font-size: 2.5em;
-}
-h2 {
-    font-weight: 400;
-    font-size: 1.8em;
-}
-h3 {
-    font-weight: 400;
-    font-size: 1.5em;
-}
-h4 {
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     font-weight: 200;
-    font-size: 1.2em;
+    margin: 0.25em 0;
 }
-h1, h2, h3, h4 {margin: 0.25em 0;}
-a {text-decoration: none;}
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em}
+h4 {font-size: 1.2em;}
 
-hr {
+/*hr {
     height: 1px;
     background-color: #7d97ad;
     border: none;
-}
+}*/
 
 /*<---Adjust headings for larger devices--->*/
 @media screen and (min-width: 768px) {
@@ -43,20 +35,22 @@ hr {
     h4 {font-size: 1.5em;}
 }
 
-/*<-------- Header styling -------->*/
+/*<-------- Header -------->*/
 .logo-container {text-align: center;}
 .logo {margin-top: 26px;}
 .title-container {text-align: center;}
-#name {color: #2d3c49;}
-#title {color: #2d3c49;}
+/*#name {color: #2d3c49;}*/
+/*#title {color: #2d3c49;}*/
 .header-separator {display: none}
+
+/*<---Center header contents on smaller screens --->*/
 @media screen and (min-width: 768px) {
     .logo-container {text-align: left;}
     .title-container {text-align: right;}
     .header-separator {display: block;}
 }
 
-/*<-------- Banner Styling -------->*/
+/*<-------- Banner -------->*/
 .banner-container {
     padding: 0;
 }
@@ -67,9 +61,8 @@ hr {
     }
 }
 
-/*<-------- Projects Styling -------->*/
+/*<-------- Projects -------->*/
 #feat-work {
-    color: #7d97ad;
     margin-left: 15px;
 }
 .projects-section {
@@ -84,11 +77,8 @@ hr {
 .project-img {
     width: 100%;
     border-radius: 4px;
-    box-shadow: 4px 4px 15px 0px #aaa;
+    box-shadow: 4px 4px 15px 0px #000;
 }
-.project-title {color: #2d3c49;}
-.project-link {
-    min-width: 48px;
-    min-height: 48px;
+.project-img:hover {
+    box-shadow: 10px 10px 30px 0px #000;
 }
-.project-separator {display: none;}
