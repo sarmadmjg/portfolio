@@ -1,3 +1,8 @@
+/*
+    - Baseline rules target the mobile version of the page
+    - Rules for larger devices are applied with media queries
+*/
+
 /*<-------- General rules -------->*/
 body {
     box-sizing: border-box;
@@ -21,7 +26,6 @@ h2 {font-size: 2em;}
 h3 {font-size: 1.5em}
 h4 {font-size: 1.2em;}
 
-/*<---Adjust headings for larger devices--->*/
 @media screen and (min-width: 768px) {
     h1 {font-size: 3em;}
     h2 {font-size: 2.5em;}
@@ -38,7 +42,7 @@ h4 {font-size: 1.2em;}
 .title-container {text-align: center;}
 .header-separator {display: none}
 
-/*<---Reorder header content on larger devices --->*/
+/*<Reorder header content on larger devices>*/
 @media screen and (min-width: 768px) {
     .logo-container {text-align: left;}
     .title-container {text-align: right;}
@@ -46,25 +50,16 @@ h4 {font-size: 1.2em;}
 }
 
 /*<-------- Hero -------->*/
-.hero-container {
-    padding: 0;
-}
 #hero {width: 100%;}
+.hero-container {margin: 0 -15px;}
 
-/*<--- Align hero with rest of page on larger devices --->*/
+/*<Align hero with rest of page on larger devices>*/
 @media screen and (min-width: 768px){
-    .hero-container {padding: 0 15px;}
+    .hero-container {margin: 0;}
 }
 
 /*<-------- Projects -------->*/
-.projects-section {
-    padding: 0;
-    margin-top: 1em;
-}
-#feat-work {
-    margin-left: 15px;
-}
-.projects-container {padding: 0;}
+.projects-section {margin-top: 1em;}
 .project {
     text-align: center;
     margin-bottom: 1em;
