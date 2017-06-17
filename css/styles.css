@@ -6,9 +6,8 @@
 /*<-------- General rules -------->*/
 body {
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-    font-weight: 100;
-    background-color: #6c97bc;
+    font: 100 16px 'Arial', sans-serif;
+    background: #6c97bc;
     color: #fff;
 }
 
@@ -20,10 +19,11 @@ img {
     max-width: 100%;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 200;
+h1,
+h2,
+h3,
+h4 {
+    font: 200 16px 'Raleway', sans-serif;
     margin: 0.25em 0;
 }
 
